@@ -1,0 +1,8 @@
+type:material
+name: "plate"
+description: "this material can help for various purposes."
+color: "#AAD4AA"
+radioactivity: 0.0
+explosiveness:0.0
+flammability:0.0
+hardness: 3

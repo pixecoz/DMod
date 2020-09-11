@@ -1,0 +1,54 @@
+type: artilleryTurret
+name: "DeathShotGun"
+description: "medium turret. small radius, big damage - it's simple"
+targetAir: true
+targetGround: true
+health: 170000
+size: 2
+shots: 25
+reload: 0.06
+inaccuracy: 10
+range: 250
+ammo: {
+ thorium: {
+ speed: 5
+ lifetime: 60
+ damage: 140
+ ammoMultiplier: 6
+ reloadMultiplier: 4
+ homingPower: 30
+ homingRadius: 5
+ incendSpread:2
+ incendAmount:3
+ splashDamageRadius:50
+ splashDamage:120
+ bulletWidth: 19
+ bulletHeight: 19
+ }
+ plate: {
+ speed: 10
+ lifetime: 60
+ damage: 240
+ ammoMultiplier: 8
+ reloadMultiplier: 6
+ homingPower: 35
+ homingRadius: 8
+ incendSpread:3
+ incendAmount:4
+ splashDamageRadius:70
+ splashDamage:220
+ bulletWidth: 19
+ bulletHeight: 19
+ }
+ }
+category: turret
+requirements: [
+copper/50000
+ lead/50000
+ graphite/30000
+ silicon/40000
+ titanium/50000
+ thorium/50000
+ plastanium/20000
+ plate/500
+ ]

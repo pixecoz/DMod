@@ -1,0 +1,9 @@
+displayName:"[#4861C4]DMod"
+name:"[#4861C4]dmod"
+description:"[gray]|[white]R[#0000CF]U[red]S[gray]|[orange]:
+[purple]Добавляет неплохие вещи для твоей игры!
+[gray]|[red]E[white]N[#0000CF]G[gray]|[orange]:
+[purple]Adds some nice stuff for your game!"
+author:"[green]pixecoz"
+version:"1.1-alpha"
+dependencies:[]

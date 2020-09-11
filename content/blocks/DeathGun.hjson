@@ -1,0 +1,54 @@
+type: artilleryTurret
+name: "DeathGun"
+description: "destroy's everything."
+targetAir: true
+targetGround: true
+health: 100000
+size: 2
+shots: 5
+reload: 0.06
+inaccuracy: 15
+range: 400
+ammo: {
+ thorium: {
+ speed: 8
+ lifetime: 280
+ damage: 50
+ ammoMultiplier: 7
+ incendSpread:7
+ incendAmount:5
+ homingPower: 10
+ homingRange: 500
+ splashDamageRadius: 50
+ splashDamage: 50
+ reloadMultiplier: 3
+ bulletWidth: 24
+ bulletHeight: 13
+ }
+  plate: {
+ speed: 10
+ lifetime: 60
+ damage: 240
+ ammoMultiplier: 8
+ reloadMultiplier: 6
+ homingPower: 35
+ homingRadius: 8
+ incendSpread: 8
+ incendAmount:6
+ splashDamageRadius:70
+ splashDamage:50
+ bulletWidth: 27
+ bulletHeight: 19
+ }
+ }
+category: turret
+requirements: [
+ copper/50000
+ lead/50000
+ graphite/30000
+ silicon/40000
+ titanium/50000
+ thorium/50000
+ plastanium/20000
+ plate/500
+]

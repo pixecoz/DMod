@@ -1,0 +1,28 @@
+type:GenericSmelter
+name:"plate factory"
+description:"connects lead, titanium and plastanium, giving plate."
+outputItem:plate/2
+size:2
+hasPower:true
+hasItems:true
+craftTime:5
+updateEffect:reactorsmoke
+itemCapacity:16
+consumes:{
+power:6.9
+items:{items:[
+lead/2
+titanium/2
+plastanium/1
+]}}
+requirements:[
+copper/450
+lead/600
+graphite/250
+silicon/300
+titanium/400
+thorium/400
+plastanium/150
+]
+category:crafting
+research:router
