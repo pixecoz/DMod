@@ -6,7 +6,7 @@ targetGround: true
 health: 170000
 size: 2
 shots: 25
-reload: 0.06
+reload: 40
 inaccuracy: 10
 range: 250
 ammo: {
@@ -24,6 +24,8 @@ ammo: {
  splashDamage:120
  bulletWidth: 19
  bulletHeight: 19
+ frontColor: #F1AEFF
+ backColor: #F1AEFF
  }
  plate: {
  speed: 10
@@ -39,6 +41,8 @@ ammo: {
  splashDamage:220
  bulletWidth: 19
  bulletHeight: 19
+ frontColor: #9ECEA0
+ backColor: #9ECEA0
  }
  }
 category: turret

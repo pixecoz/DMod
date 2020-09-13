@@ -1,0 +1,8 @@
+type:material
+name: "pieces of plate"
+description: "these pieces are needed for the plates."
+color: "#AAD4AA"
+radioactivity: 0.001
+explosiveness:0.0
+flammability:0.0
+hardness: 2

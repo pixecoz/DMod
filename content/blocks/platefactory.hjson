@@ -5,7 +5,7 @@ outputItem:plate/2
 size:2
 hasPower:true
 hasItems:true
-craftTime:5
+craftTime:60
 updateEffect:reactorsmoke
 itemCapacity:16
 consumes:{

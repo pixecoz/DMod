@@ -1,6 +1,6 @@
 type: artilleryTurret
 name: "DeathGun"
-description: "destroy's everything."
+description: "destroys everything."
 targetAir: true
 targetGround: true
 health: 100000
@@ -24,6 +24,8 @@ ammo: {
  reloadMultiplier: 3
  bulletWidth: 24
  bulletHeight: 13
+ frontColor: #F1AEFF
+ backColor: #F1AEFF
  }
   plate: {
  speed: 10
@@ -39,6 +41,8 @@ ammo: {
  splashDamage:50
  bulletWidth: 27
  bulletHeight: 19
+ frontColor: #9ECEA0
+ backColor: #9ECEA0
  }
  }
 category: turret
